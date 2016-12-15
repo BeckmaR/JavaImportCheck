@@ -1,4 +1,4 @@
-from .javapackage import JavaPackage
+from .JavaPackage import JavaPackage
 
 class PackageLibrary:
     def __init__(self):
