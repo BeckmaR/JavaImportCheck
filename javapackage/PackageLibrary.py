@@ -1,5 +1,6 @@
 from .JavaPackage import JavaPackage
 
+
 class PackageLibrary:
     def __init__(self):
         self.packages = []
@@ -29,6 +30,8 @@ class PackageLibrary:
                 parent_package = candidates[0]
             elif len(candidates) > 1:
                 raise Exception("More than one package with same name.")
+
+        return parent_package
 
 
 
